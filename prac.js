@@ -1,10 +1,10 @@
-let per = ["Ricco", 20, true]
-
-
-per.push("YAY")
-per.push(4)
-per.pop()
-
-for (let i = 0; i < 3; i++) {
-    console.log(per)
+let person = {
+    name: "Ricco",
+    age: 20,
+    country: "Philippines",
+    logData: function() {
+        console.log(person.name)
+    }
 }
+
+person.logData()
