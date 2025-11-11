@@ -70,8 +70,6 @@ function newCard() {
     }
 }
 
-
-// CASH OUT
 function getPrice() {
     if (hasBlackJack) {
         player.chips += 100
