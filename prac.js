@@ -1,11 +1,24 @@
-const basePrice = 520
-const discount = 120
-let shippingCost = 12
-let shippingTime = "5-12 days"
+ let year = 1990;
+console.log(typeof year); // -> number
+console.log(typeof 1991); // -> number
+   
+let name = "Alice";
+console.log(typeof name); // -> string
+console.log(typeof "Bob"); // -> string
+   
+let typeOfYear = typeof year;
+console.log(typeOfYear); // -> number
+console.log(typeof typeOfYear); // -> string 
 
-shippingCost = 15
-shippingTime = "7-14 days"
-
-const fullPrice = basePrice - discount + shippingCost
-
-console.log("Total cost: " + fullPrice + ". It will arrive in " + shippingTime)
+let  a  =  1  /  0;
+let  b  =  -Infinity;
+   
+console.log(a);  //  ->  Infinity
+console.log(b);  //  ->  -Infinity
+console.log(typeof  a);  //  ->  number
+console.log(typeof  b);  //  ->  number
+   
+let  s  =  "it's  definitely  not  a  number";
+let  n  =  s  *  10;
+console.log(n);  //  ->  NaN
+console.log(typeof  n);  //  ->  number
